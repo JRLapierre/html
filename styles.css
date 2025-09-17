@@ -1,6 +1,7 @@
 /*overall style*/
 body {
-    background-color: burlywood;
+    /*background-color: burlywood;*/
+    margin: 0;
 }
 
 .full_page {
@@ -8,7 +9,7 @@ body {
     width: 21cm;
     height: 29.7cm;
     display: flex;
-    margin: 10px;
+    margin: 0;
     font-family: sans-serif;
 }
 
@@ -16,10 +17,16 @@ body {
     background-color: rgb(203, 229, 151);
     width: 33%;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .main_body {
     width: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .colored_area {
@@ -55,6 +62,7 @@ h2 {
 
 .photo img {
     max-width: 100%;
+    transform: scaleX(-1);
 }
 
 .name {
@@ -63,10 +71,11 @@ h2 {
 }
 
 .title {
+    font-size: 1.5rem;
     text-align: center;
 }
 
-.skills h3 {
+.side_column h3 {
     text-align: center;
 }
 
@@ -87,6 +96,16 @@ h2 {
 .icon {
     max-width: 1rem;
     max-height: 1rem;
+}
+
+.icons_hobbies {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobby_icon {
+    height: 30px;
 }
 
 /*main side styles*/
@@ -115,14 +134,4 @@ h2 {
 
 .date {
     text-align: right;
-}
-
-.icons_hobbies {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.hobby_icon {
-    height: 60px;
 }
