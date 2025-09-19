@@ -17,9 +17,9 @@ body {
     background-color: rgb(203, 229, 151);
     width: 33%;
     padding: 10px;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around;*/
 }
 
 .main_body {
