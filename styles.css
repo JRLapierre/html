@@ -77,10 +77,20 @@ h2 {
 
 .side_column h3 {
     text-align: center;
+    margin-bottom: 0.5em;
 }
 
 .skill_category {
     font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.skills_columns {
+    display:flex;
+}
+
+.skills_column {
+    width: 50%;
 }
 
 .information_row {
